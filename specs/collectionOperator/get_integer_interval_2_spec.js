@@ -19,6 +19,7 @@ describe('get_integer_interval_2', function () {
     expect(result).toEqual(collection_b);
   });
 
+
   it('给定两个相同的偶数得到只含此数字的数组', function() {
 
     var result = get_integer_interval_2(10, 10);

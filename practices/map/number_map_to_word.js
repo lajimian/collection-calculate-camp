@@ -1,6 +1,9 @@
 'use strict';
 var number_map_to_word = function(collection){
-  return ['a','b','c','d','e'];
+  var result=[];
+  for(var i=0;i<collection.length;i++)
+    result.push(String.fromCharCode(collection[i]+96));
+  return result;
 };
 
 module.exports = number_map_to_word;
